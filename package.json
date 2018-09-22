@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node app-server/server.js",
     "dev": "webpack --mode=development",
+    "watch": "webpack --mode=development --watch",
     "devs": "webpack-dev-server --mode=development",
     "build": "webpack --mode=production"
   },
